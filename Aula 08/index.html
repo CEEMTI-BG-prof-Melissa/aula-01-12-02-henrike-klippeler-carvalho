@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Aula 08 </title>
+    </head>
+    <body>
+        <form>
+            <h2> Cadastro </h2>
+            <!-- Formulário de cadastro pessoal -->
+            <form action="recebe.html" method="POST">
+            <label for="nomecompleto">Nome completo:</label>
+            <input type="text" id="nomecompleto" name="nome" maxlength="50">
+            <br><br>
+            
+            <!-- Campo para E-mail -->
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="email">
+            <br><br>
+            
+            <!-- Campo para escolha de linguagem favorita -->
+            <h4> Escolha sua linguagem favorita </h4>
+            
+            <input type="checkbox" id="linguagemfavorita" name="linguagemfavorita" value="HTMl"> <label for="HTMl">HTMl</label>
+            <br>
+            <input type="checkbox" id="linguagemfavorita" name="linguagemfavorita" value="CSS"> <label for="CSS">CSS</label>
+            <br>      
+            <input type="checkbox" id="linguagemfavorita" name="linguagemfavorita" value="JavaScript"> <label for="JavaScript">JavaScript</label>
+            <br>
+            <input type="checkbox" id="linguagemfavorita" name="linguagemfavorita" value="Python"> <label for="Python">Python</label>
+            <br> 
+            
+            <!-- Campo para escolha de turno -->
+            
+            <h4> Escolha seu turno</h4>
+            <input type="radio" id="turno" name="turno" value="Manhã" /> <label for="Manhã">Manhã</label>
+            <br>
+            <input type="radio" id="turno" name="turno" value="Tarde" /> <label for="Tarde">Tarde</label>
+            <br>
+            <input type="radio" id="turno" name="turno" value="Noite" /> <label for="Noite">Noite</label>
+            <br> <br>
+            <!-- Botão de envio -->
+            <button type="submit">Entrar</button>
+        </form>
+    </body>
+</html>
