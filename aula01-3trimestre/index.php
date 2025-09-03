@@ -1,12 +1,13 @@
 <html>
     <head>
-        <title> Aula 02 PHP</title>
+        <title> Aula 01 PHP</title>
     </head>
     <body>
         <?php
-            $nome="Henrike";
-            echo "Meu nome é " .$nome ;
+        echo "Olá, mundo!";
+        echo "Henrike K. Carvalho";
         ?>
+
 
     </body>
 
