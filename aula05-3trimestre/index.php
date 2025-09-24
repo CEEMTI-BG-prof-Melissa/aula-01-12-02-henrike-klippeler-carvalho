@@ -12,8 +12,8 @@
             echo "<br><br>O número $num2 <sup>$num1</sup> é igual a " .pow($num2,$num1);
             echo "<br><br>A raiz quadrada de $num2 é " .sqrt($num2);
             echo "<br><br> O $num2 arredondado fica " .round($num2);
-            echo "<br> O $n2 arredondado para cima fica " .ceil($n2);
-            echo "<br> O $n2 arredondado para baixo fica " .floor($n2);
+            echo "<br> O $num2 arredondado para cima fica " .ceil($num2);
+            echo "<br> O $num2 arredondado para baixo fica " .floor($num2);
          ?>
     </body>
 </html>
